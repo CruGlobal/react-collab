@@ -1,0 +1,39 @@
+header, footer, main, aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header, footer {
+    height: 20vh;
+}
+
+header {
+    background-color: salmon;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    background-color: #7b5ea7;
+    width: 70%;
+}
+
+aside {
+    display: flex;
+    width: 30%;
+    background-color: #fcba28;
+}
+
+footer {
+	background-color: #0ba95b;
+
+}
+
+.container {
+	display: flex;
+    height: 60vh;
+}

@@ -5,13 +5,18 @@
 // 1. Fix the error so the component renders correctly
 // 2. Create styles sheet and import into react component.
 
+import './styles.css';
 
 function AdjacentElements() {
   return (
-    <header>Header</header>
-    // <main>Main</main>
-    // <aside>Aside</aside>
-    // <footer>Footer</footer>
+    <>
+      <header>Header</header>
+      <div className="container">
+        <main>Main</main>
+        <aside>Aside</aside>
+      </div>
+      <footer>Footer</footer>
+    </>
   );
 }
 
