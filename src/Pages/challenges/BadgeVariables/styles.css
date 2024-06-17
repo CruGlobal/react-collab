@@ -26,3 +26,7 @@ p {
   color: white;
   text-transform: uppercase;
 }
+
+.name {
+  font-weight:bold;
+}
